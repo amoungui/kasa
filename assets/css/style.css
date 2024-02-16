@@ -132,5 +132,11 @@ body {
     background-color: #000000;
     color: #fff;
   }
+  .main-container footer img {
+    width: 122px;
+    height: 39.44px;
+    top: 66px;
+    left: 127px;
+  }
   /* End footer style  */
 }/*# sourceMappingURL=style.css.map */
