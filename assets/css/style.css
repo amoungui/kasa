@@ -85,9 +85,6 @@ body {
     color: #fff;
     z-index: 1;
   }
-  main .logements-cards {
-    border: 1px solid black;
-  }
   main .logements-cards .card {
     position: relative;
   }
