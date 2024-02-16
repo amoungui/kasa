@@ -33,7 +33,6 @@ body {
     align-items: center;
   }
   header .menu-nav a {
-    text-decoration: none;
     font-size: 12px;
     font-weight: 500;
     line-height: 17px;
@@ -110,7 +109,6 @@ body {
     background: linear-gradient(180deg, rgba(224, 10, 10, 0.405) 0%, rgba(224, 10, 10, 0.5) 42%, rgba(232, 18, 18, 0.75) 99.99%, rgb(227, 21, 21) 100%);
   }
   main .logements-cards .card .card-content {
-    text-decoration: none;
     position: absolute;
     top: 0;
     left: 0;
