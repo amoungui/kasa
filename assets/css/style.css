@@ -1,4 +1,13 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
   font-family: "Montserrat", sans-serif;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+  /* ici responsive version tablette*/
+}
+/* Small devices (phones, less than 768px) *//*# sourceMappingURL=style.css.map */
