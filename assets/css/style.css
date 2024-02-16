@@ -4,6 +4,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+* a {
+  text-decoration: none;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
@@ -45,6 +49,8 @@ body {
     margin: 10px;
     /* Begin banner style  */
     /* End banner style  */
+    /* Start section cards style  */
+    /* End section cards style  */
   }
   main #banner {
     width: 100%;
@@ -79,6 +85,41 @@ body {
     position: absolute;
     color: #fff;
     z-index: 1;
+  }
+  main .logements-cards {
+    border: 1px solid black;
+  }
+  main .logements-cards .card {
+    position: relative;
+  }
+  main .logements-cards .card img {
+    width: 100%;
+    height: 255px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+  }
+  main .logements-cards .card::before {
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 255px;
+    background: linear-gradient(180deg, rgba(224, 10, 10, 0.405) 0%, rgba(224, 10, 10, 0.5) 42%, rgba(232, 18, 18, 0.75) 99.99%, rgb(227, 21, 21) 100%);
+  }
+  main .logements-cards .card .card-content {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 50%;
+    z-index: 1;
+  }
+  main .logements-cards .card .card-content .card-txt {
+    margin: 15px;
+    color: #fff;
   }
   /* End main style  */
 }/*# sourceMappingURL=style.css.map */
