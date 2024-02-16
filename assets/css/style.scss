@@ -16,6 +16,7 @@ body {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    /* Begin header style  */
     header {
         display: flex;
         justify-content: space-between;
@@ -42,4 +43,8 @@ body {
             }
         }
     }
+    /* End header style  */
+    /* Begin main style  */
+
+    /* End header style  */
 }

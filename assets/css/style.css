@@ -12,6 +12,7 @@ body {
 }
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+  /* Begin header style  */
   header {
     display: flex;
     justify-content: space-between;
@@ -37,4 +38,7 @@ body {
     text-align: right;
     color: #000000;
   }
+  /* End header style  */
+  /* Begin main style  */
+  /* End header style  */
 }/*# sourceMappingURL=style.css.map */
