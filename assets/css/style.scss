@@ -61,7 +61,7 @@ body {
                 top: 0;
                 left: 0;
                 width: 100%;
-                height: 98%;
+                height: 99%;
                 background: rgba(0, 0, 0, 0.6);
                 border-radius: 10px;
             }
@@ -128,9 +128,22 @@ body {
             }
         }
         /* End section cards style  */
-
-
     }
     /* End main style  */
-
+    /* Start footer style  */
+    .main-container{
+        width: 100%;
+        footer{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 209px;
+            padding: 66px, 120.31px, 58px, 121.09px;
+            background-color: #000000;
+            color: #fff;
+        }
+    }
+    /* End footer style  */
 }
