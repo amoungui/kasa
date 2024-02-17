@@ -90,14 +90,11 @@ main{
     /* End banner style  */
 
     /* Start section cards style  */
-    .logements-cards {
+    .logements-cards{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        gap: 30px; /* ajustez ceci pour changer l'espace entre les cartes */
-    }
-    
-    .logements-cards{
+        gap: 30px; /* ajustez ceci pour changer l'espace entre les cartes */        
         background: #F6F6F6;
         margin-top: 30px;
         padding: 30px;
@@ -169,6 +166,28 @@ main{
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     /* ici responsive version tablette*/
+    /* Start footer style  */
+    .main-container{
+        width: 100%;
+        footer{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 209px;
+            padding: 66px, 120.31px, 58px, 121.09px;
+            background-color: #000000;
+            color: #fff;
+            img {
+                width: 122px;
+                height: 39.44px;
+                top: 66px;
+                left: 127px;
+            }
+        }
+    }
+    /* End footer style  */    
 }
 
 /* Small devices (phones, less than 768px) */
