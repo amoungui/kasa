@@ -10,8 +10,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../assets/css/style.css">
-        <link rel="stylesheet" href="../assets/css/404.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -20,19 +19,23 @@
         <!-- main container -->
         <div class="main-container">
             <header>
-                <a href="#"><img src="../assets/img/logo-header.jpg" class="header-logo" alt="Logo kasa"></a>
+                <a href="#"><img src="assets/img/logo-header.jpg" class="header-logo" alt="Logo kasa"></a>
                 <nav class="menu-nav">
-                    <a href="../index.html" class="btn-link btn-home">Accueil</a>
+                    <a href="../index.html" class="btn-link btn-home  active">Accueil</a>
                     <a href="./apropos.html" class="btn-link btn-about">A propos</a>
                 </nav>
             </header>
-            <main class="noexist-page">
-                <span class="noexist-page-info">404</span>
-                <p class="noexist-page-msg">Oups! La page que vous demandez n'existe pas.</p>
-                <a href="../index.html" class="noexist-page-link">Retourner sur la page d’accueil</a>
+            <main>
+                <div id="banner">
+                    <img class="banner-img" src="assets/img/banner-img.jpg" alt="Banner kasa">
+                    <p>Chez vous, partout et ailleurs</p>
+                </div>
+                <section class="logements-cards">                        
+
+                </section>                
             </main>
             <footer>
-                <img class="footer-img" src="../assets/img/LOGO.png" alt="footer kasa">
+                <img class="footer-img" src="assets/img/LOGO.png" alt="footer kasa">
                 <p>© 2020 Kasa. All rights reserved</p>
             </footer>
         </div>
