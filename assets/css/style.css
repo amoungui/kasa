@@ -8,6 +8,88 @@ body {
   text-decoration: none;
 }
 
+/* Begin header style  */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  height: 68px;
+}
+header .header-logo {
+  width: 210.32px;
+  height: 68px;
+}
+header .menu-nav {
+  display: flex;
+  top: 17px;
+  left: 931px;
+  gap: 57px;
+  justify-content: center;
+  align-items: center;
+}
+header .menu-nav a {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #000000;
+}
+
+/* End header style  */
+/* Begin main style  */
+main {
+  margin: 30px;
+  /* Begin banner style  */
+  /* End banner style  */
+  /* Start section cards style  */
+  /* End section cards style  */
+}
+main #banner {
+  width: 100%;
+  opacity: 0.2px;
+  position: relative;
+  height: 223px;
+  border: 1px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 10px;
+}
+main #banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+main #banner .banner-img {
+  width: 100%;
+  border-radius: 10px;
+  height: 221px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #banner p {
+  width: 733px;
+  height: 68px;
+  top: 14px;
+  left: 180px;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: #fff;
+  z-index: 1;
+}
+
+/* End main style  */
 /* Start footer style  */
 .main-container {
   width: 100%;
