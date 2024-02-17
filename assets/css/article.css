@@ -1,0 +1,29 @@
+/* Begin main style  */
+main {
+  margin: 30px;
+  height: 643px;
+  border: 1px;
+  /* Begin article style  */
+  /* End banner style  */
+}
+main .card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  height: 425px;
+  border: 1px;
+  border-radius: 25px;
+}
+main .card .article-banner-img {
+  width: 100%;
+  height: 425px;
+  top: 163px;
+  left: 100px;
+  border-radius: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* End main style  *//*# sourceMappingURL=article.css.map */
