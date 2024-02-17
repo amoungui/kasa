@@ -219,7 +219,7 @@ main .logements-cards .card .card-content .card-txt {
   header {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 30px;
   }
   header .header-logo {
     width: 145px;
@@ -247,7 +247,7 @@ main .logements-cards .card .card-content .card-txt {
   main {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 30px;
     /* Begin banner style  */
     /* End banner style  */
     /* Start section cards style  */
@@ -257,6 +257,7 @@ main .logements-cards .card .card-content .card-txt {
     width: 100%;
     opacity: 0.2px;
     position: relative;
+    height: 111px;
   }
   main .banner::after {
     content: "";
@@ -271,11 +272,12 @@ main .logements-cards .card .card-content .card-txt {
   main .banner .banner-img {
     width: 100%;
     border-radius: 10px;
+    height: 111px;
   }
   main .banner p {
-    width: 214px;
+    width: 220px;
     height: 48px;
-    top: 57px;
+    top: 10px;
     left: 16px;
     font-size: 24px;
     font-weight: 700;
