@@ -87,9 +87,55 @@ main{
         }
     }
     /* End banner style  */
-    
-    /* Start section cards style  */
 
+    /* Start section cards style  */
+    .logements-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px; /* ajustez ceci pour changer l'espace entre les cartes */
+    }
+    
+    .logements-cards{
+        background: #F6F6F6;
+        margin-top: 30px;
+        padding: 30px;
+        .card{
+            position: relative;
+            img {
+                width: 100%;
+                height: 255px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                border-radius: 10px;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 255px;
+                background: linear-gradient(
+                    180deg, 
+                    rgba(224, 10, 10, 0.405) 0%,  
+                    rgba(224, 10, 10, 0.5) 42%,  
+                    rgba(232, 18, 18, 0.75) 99.99%, 
+                    rgba(227, 21, 21, 1) 100%
+                );
+            }
+            .card-content {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 1;
+                .card-txt{
+                    margin: 10%;
+                    color: #fff;
+                }
+            }
+        }
+    }
     /* End section cards style  */
 }
 /* End main style  */
