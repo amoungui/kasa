@@ -22,6 +22,21 @@ main{
             border-radius: 25px;
             object-fit: cover;
         }
+        .card-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .card-accordions {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            gap: 10px; /* ajustez ceci pour changer l'espace entre les cartes */
+            .accordion-button{
+                border-radius: 5px;
+
+            }
+        }
     }
     /* End banner style  */
 }
