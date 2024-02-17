@@ -10,7 +10,11 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">        
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/apropos.css">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -19,7 +23,7 @@
         <!-- main container -->
         <div class="main-container">
             <header>
-                <a href="#"><img src="assets/img/logo-header.jpg" class="header-logo" alt="Logo kasa"></a>
+                <a href="#"><img src="../assets/img/logo-header.jpg" class="header-logo" alt="Logo kasa"></a>
                 <nav class="menu-nav">
                     <a href="../index.html" class="btn-link btn-home  active">Accueil</a>
                     <a href="./apropos.html" class="btn-link btn-about">A propos</a>
@@ -27,18 +31,24 @@
             </header>
             <main>
                 <div id="banner">
-                    <img class="banner-img" src="assets/img/banner-img.jpg" alt="Banner kasa">
+                    <img class="banner-img" src="../assets/img/kalen-emsley-Bkci_8qcdvQ-unsplash2.jpg" alt="Banner kasa">
                     <p>Chez vous, partout et ailleurs</p>
                 </div>
-                <section class="logements-cards">                        
-
+                <section class="apropos-cards">                        
+                    <div class="accordion">
+                        <button class="accordion-button">Accordion Title <i class="fa-solid fa-chevron-up"></i></button>
+                        <div class="accordion-content">
+                          <p>Accordion content.</p>
+                        </div>
+                      </div>
+                      
                 </section>                
             </main>
             <footer>
-                <img class="footer-img" src="assets/img/LOGO.png" alt="footer kasa">
+                <img class="footer-img" src="../assets/img/LOGO.png" alt="footer kasa">
                 <p>© 2020 Kasa. All rights reserved</p>
             </footer>
         </div>
-        <script src="" async defer></script>
+        <script src="../assets/js/script.js" async defer></script>
     </body>
 </html>

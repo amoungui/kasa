@@ -1,0 +1,32 @@
+.accordion {
+  position: relative;
+}
+
+.accordion-button {
+  background-color: #FF6060;
+  color: #fff;
+  padding: 16px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.accordion-button .fa-solid {
+  float: right;
+  transition: transform 0.5s;
+}
+
+.accordion-button.active .fa-chevron-up {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}/*# sourceMappingURL=apropos.css.map */
