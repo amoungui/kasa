@@ -208,7 +208,7 @@ main .logements-cards .card .card-content .card-txt {
     top: 0;
     left: 0;
     width: 100%;
-    height: 99%;
+    height: 100%;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
   }
@@ -229,6 +229,14 @@ main .logements-cards .card .card-content .card-txt {
     position: absolute;
     color: #fff;
     z-index: 1;
+  }
+  main .logements-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px; /* ajustez ceci pour changer l'espace entre les cartes */
+    background: #F6F6F6;
+    padding: 0px;
   }
   main .logements-cards .card {
     position: relative;
