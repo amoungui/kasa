@@ -8,6 +8,28 @@ body {
 }
 
 
+/* Start footer style  */
+.main-container{
+    width: 100%;
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 209px;
+        padding: 66px, 120.31px, 58px, 121.09px;
+        background-color: #000000;
+        color: #fff;
+        img {
+            width: 122px;
+            height: 39.44px;
+            top: 66px;
+            left: 127px;
+        }
+    }
+}
+/* End footer style  */
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
