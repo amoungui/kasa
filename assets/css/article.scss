@@ -26,6 +26,87 @@ main{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            .card-title {
+                width: 635px;
+                height: 51px;
+                top: 608px;
+                left: 100px;
+                color: #FF6060;
+                font-size: 36px;
+                font-weight: 500;
+                line-height: 51px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+            .card-subtitle {
+                width: 175px;
+                height: 26px;
+                top: 659px;
+                left: 100px;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-top: -35px;
+            }
+            .card-host {
+                width: 167px;
+                height: 64px;
+                top: 602px;
+                left: 1170px;
+                margin-top: 25px;
+                .card-rating {
+                    width: 196px;
+                    height: 36px;
+                    top: 687px;
+                    left: 1144px;
+                    margin-top: 27px;
+                    .fa-star {
+                        color: #FF6060;
+                    }
+                    .fa-start-grey {
+                        color: #E3E3E3;
+
+                    }
+                }
+                .card-host-name {
+                    display: flex;
+                    justify-content: space-between;
+                    .card-avatar {
+                        width: 64px;
+                        height: 64px;
+                        top: 602px;
+                        left: 1273px;
+                        background: #C4C4C4;
+                        border-radius: 200px 200px 200px 200px;
+                        -webkit-border-radius: 200px 200px 200px 200px;
+                        -moz-border-radius: 200px 200px 200px 200px;
+                    }
+                }
+            }
+            .card-tags {
+                width: 365px;
+                height: 25px;
+                top: 705px;
+                left: 100px;
+                border: 1px;
+                .card-tag {
+                    width: 115px;
+                    height: 25px;
+                    top: 705px;
+                    left: 350px;
+                    border: 1px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    color: #FFFFFF;
+                    background-color: #FF6060;
+                    padding: 2px 15px 2px 15px;
+                }
+            }
         }
         .card-accordions {
             display: grid;
