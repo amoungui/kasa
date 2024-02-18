@@ -30,7 +30,7 @@ imageUrls.forEach((url, index) => {
     img.src = url;
     img.classList.add('article-banner-img');
     img.style.display = index === 0 ? 'block' : 'none';
-    sliderContent.insertBefore(img, sliderContent.firstChild);
+    sliderContent.appendChild(img); // Utilisez appendChild au lieu de insertBefore
 });
 
 let images = document.querySelectorAll('.article-banner-img');

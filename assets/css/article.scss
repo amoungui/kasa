@@ -5,23 +5,55 @@ main{
     border: 1px;
 
     /* Begin article style  */
-    .card{
+    .card {
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 10px;
         position: relative;
-        height: 425px;
+        height: 625px; 
         border: 1px;
         border-radius: 25px;
+
+        #slider-content {
+            position: relative;
+            overflow: hidden;
+            border-radius: 25px;
+            height: 100%; // Assurez-vous que le conteneur a une hauteur définie
+        }
+
         .article-banner-img {
             width: 100%;
-            height: 425px;
-            top: 163px;
-            left: 100px;
-            border-radius: 25px;
+            height: 100%; // L'image prendra la hauteur totale du conteneur
             object-fit: cover;
+            object-position: center;
         }
+
+        #prev, #next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 2em;
+            color: white;
+            cursor: pointer;
+        }
+
+        #prev {
+            left: 10px;
+        }
+
+        #next {
+            right: 10px;
+        }
+
+        .dots {
+            position: absolute;
+            bottom: 10px; // Positionne les points en bas
+            left: 50%;
+            transform: translateX(-50%); // Centre les points horizontalement
+            color: #FFFFFF;
+        }
+
         .card-content {
             display: flex;
             flex-direction: row;
@@ -121,4 +153,3 @@ main{
     }
     /* End banner style  */
 }
-/* End main style  */
