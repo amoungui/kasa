@@ -14,12 +14,11 @@ main{
         height: 625px; 
         border: 1px;
         border-radius: 25px;
-
         #slider-content {
             position: relative;
             overflow: hidden;
             border-radius: 25px;
-            height: 255px; // s'assurez que le conteneur a une hauteur définie
+            height: 100%; // s'assurez que le conteneur a une hauteur définie
         }
 
         .article-banner-img {
@@ -178,7 +177,7 @@ main{
         flex-direction: column;
         gap: 10px;
         position: relative;
-        height: 725px; 
+        height: 700px; 
         border: 1px;
         border-radius: 25px;
         #slider-content {

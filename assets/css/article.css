@@ -21,7 +21,7 @@ main .card #slider-content {
   position: relative;
   overflow: hidden;
   border-radius: 25px;
-  height: 255px;
+  height: 100%;
 }
 main .card .article-banner-img {
   width: 100%;
@@ -167,7 +167,7 @@ main .card .card-accordions .accordion-button {
     flex-direction: column;
     gap: 10px;
     position: relative;
-    height: 725px;
+    height: 700px;
     border: 1px;
     border-radius: 25px;
   }
