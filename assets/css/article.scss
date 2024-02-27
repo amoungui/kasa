@@ -1,7 +1,8 @@
 /* Begin main style  */
-main{
+#main{
     margin: 30px;
     height: 743px;
+    max-height: 900px;
     border: 1px;
 
     /* Begin article style  */
@@ -18,7 +19,7 @@ main{
             position: relative;
             overflow: hidden;
             border-radius: 25px;
-            height: 100%; // s'assurez que le conteneur a une hauteur définie
+            height: 800px; // s'assurez que le conteneur a une hauteur définie
         }
 
         .article-banner-img {
@@ -140,15 +141,15 @@ main{
                 }
             }
         }
-        .card-accordions {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(1, 1fr);
-            gap: 10px; /* ajustez ceci pour changer l'espace entre les cartes */
-            .accordion-button{
-                border-radius: 5px;
+    }
+    .card-accordions {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px; /* ajustez ceci pour changer l'espace entre les cartes */
+        .accordion-button{
+            border-radius: 5px;
 
-            }
         }
     }
     /* End banner style  */
@@ -165,7 +166,7 @@ main{
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 /* Begin main style  */
-main{
+#main{
     margin: 30px;
     height: 743px;
     border: 1px;
@@ -299,15 +300,15 @@ main{
                 }
             }
         }
-        .card-accordions {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            gap: 10px; /* ajustez ceci pour changer l'espace entre les cartes */
-            .accordion-button{
-                border-radius: 5px;
+    }
+    .card-accordions {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px; /* ajustez ceci pour changer l'espace entre les cartes */
+        .accordion-button{
+            border-radius: 5px;
 
-            }
         }
     }
     /* End banner style  */
